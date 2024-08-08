@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Retro Pixel';
+  src: url('RetroPixel-7BZol.otf') format('truetype');/*please install the font in 'fonts' folder*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  margin: 10;
+  padding: 0;
+
+}
+
+canvas {
+  display: block;
+}
+
+.background{
+  position: absolute;
+    top: 0;
+    left: 0;
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  background-image: url('background_eye.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+nav{
+  display:flex;
+  aligin-items:center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  text-align: right; /* Align text to the right */
+  margin-top: 20px; /* Adjust top margin as needed */
+}
+
+.logo {
+  margin-left: auto; /* Push the image to the right */
+  max-height: 100px; /* Limit the height of the logo */
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Retro Pixel';
+  font-size: 24px; 
+  font-weight: normal;
+  color: #50FF76;
+  width: 100%;
+  margin-top: -30px; /* Adjust top margin */
+  padding-right: 10px;
+}
+
+p {
+  font-family: 'Retro Pixel';
+  font-size: 12px; 
+  font-weight: normal;
+  color: #50FF76;
+  width: 100%;
+  margin-top: -10px; /* Adjust top margin */
+  padding-right: 10px;
+}
